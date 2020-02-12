@@ -227,6 +227,8 @@ img {
 }
 
 .coin__title {
+  color:black;
+  font-size: 7rem;
   display: block;
   margin-left: 8px;
     min-width: 160px;
@@ -234,6 +236,7 @@ text-align: left;
 }
 
 .coin__symbol {
+  color:black;
   display: block;
   margin-bottom: 10px;
 }
@@ -244,7 +247,12 @@ text-align: left;
 
 .dark-mode {
   color: #fff;
-  background-color: #313843;
+  background-color: #fff;
+  background-image: url(../src/img/cb1.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
 
   .navbar {
     background-color: #1F2022;
